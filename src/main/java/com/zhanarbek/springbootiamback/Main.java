@@ -12,7 +12,7 @@ public class Main {
         SpringApplication.run(Main.class, args);
     }
 
-    @GetMapping("/")
+    @GetMapping("/greet")
     public String greet(){
         return "Hello";
     }
